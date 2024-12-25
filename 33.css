@@ -1,0 +1,13 @@
+
+#aa{
+    height: 500px;
+    width: 500px;
+    border: solid black 2px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.ayush{
+    height: 100px;
+    width: 100px;
+}
