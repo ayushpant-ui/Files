@@ -1,0 +1,20 @@
+div{
+    border: black 2px solid;
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    animation-name: animate;
+    animation-duration: 7s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+   font-weight: bolder;
+   font-size: 28px;
+}
+@keyframes animate{
+    0%{left: 0px; background-color: green; color: green;}
+    30%{left: 200px; background-color: blue; color: blue;}
+    60%{left: 500px; background-color: violet; color: violet;}
+    100%{left:1000px; background-color: green; color: red;}
+}
